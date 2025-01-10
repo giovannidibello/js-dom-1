@@ -14,8 +14,10 @@ bottone.addEventListener("click", function () {
     if (isOff) {
         bottone.innerHTML = "SPEGNI"
         lampadina.src = "./img/yellow_lamp.png"
+        bottone.classList.add("spenta")
     } else {
         bottone.innerHTML = "ACCENDI"
         lampadina.src = "./img/white_lamp.png"
+        bottone.classList.remove("spenta")
     }
 })

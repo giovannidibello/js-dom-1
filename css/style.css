@@ -10,6 +10,13 @@ main div {
 }
 
 button {   
+    font-weight: bold;
     padding: 20px;
     border-radius: 15px;
+    background-color: green;
 }
+
+.spenta {
+    background-color: red;
+}
+
