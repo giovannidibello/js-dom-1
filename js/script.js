@@ -8,10 +8,10 @@ const bottone = document.querySelector("button");
 bottone.addEventListener("click", function () {
     
     // controllo se il testo del bottone include ACCENDI
-    const isOn = bottone.innerHTML.includes("ACCENDI");
+    const isOff = bottone.innerHTML.includes("ACCENDI");
 
     // se è vero accendo la lampadina e scrivo spegni altrimenti il contrario
-    if (isOn) {
+    if (isOff) {
         bottone.innerHTML = "SPEGNI"
         lampadina.src = "./img/yellow_lamp.png"
     } else {
