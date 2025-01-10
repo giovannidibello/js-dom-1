@@ -3,3 +3,13 @@
     border: 0;
     box-sizing: border-box;
 }
+
+main div {
+    display: flex;
+    justify-content: center;
+}
+
+button {   
+    padding: 20px;
+    border-radius: 15px;
+}
